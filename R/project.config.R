@@ -69,8 +69,8 @@
 #'    ('_') with dots ('.'). The default is \code{TRUE}. When migrating old
 #'    projects, \code{underscore_variables} is set to \code{FALSE}. \cr
 #'  \code{cache_file_format} \tab The default file format for cached data is
-#'    'RData'. This can be set to 'qs' in order to benefit from the quick
-#'    serialization of R objects provided by \pkg{qs}.
+#'    'RData'. This can be set to 'qs2' in order to benefit from the optimized
+#'    compression format provided by \pkg{qs2}.
 #' }
 #'
 #'    If the \code{config/globals.dcf} is missing some items (for example because it was created under an
